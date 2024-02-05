@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-span{
+    font-size: 30px;
+    color: rgb(187, 25, 25);
+}
+Nav a{
+    color: #fff !important;
+    cursor: pointer;
+    z-index: 999;
+}
+.navbar{
+    background-color:rgba(0,0, 0, 0.6);
+    padding: 15px 0px;
+}
+Nav a:hover{
+    color: #bccf68 !important;
+}
+.navbar img{
+    width: 120px;
+    height: 50px;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/slider/slider-01.jpg);
+    background-size:cover;
+    background-position: center center;
+    /* min-height: 100vh; */
+}
+.caption{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;  
+    text-align: center;
+}
+#home  span{
+    font-size:25px ;
+}
+#home  h1{
+    font-size: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:  rgb(187, 25, 25);
+}
+.caption h2::after{
+    content: "|";
+    animation-name: typing; 
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{content:'D|'}
+    1.3%{content:'De|'}
+    2.6%{content:'Dev|'}
+    3.9%{content:'Deve|'}
+    5.2%{content:'Devel|'}
+    6.4%{content:'Develo|'}
+    7.7%{content:'Develop|'}
+    9%{content:'Develope|'}
+    10.3%{content:'Developer|'}
+    11.6%{content:'Develope|'}
+    12.9%{content:'Develop|'}
+    14.2%{content:'Develo|'}
+    15.5%{content:'Devel|'}
+    16.8%{content:'Deve|'}
+    18.1%{content:'Dev|'}
+    19.4%{content:'De|'}
+    20.7%{content:'D|'}
+    22%{content:'|'}
+    23.3%{content:'D|'}
+    24.6%{content:'De|'}
+    25.9%{content:'Des|'}
+    27.2%{content:'Desi|'}
+    28.5%{content:'Desig|'}
+    29.8%{content:'Design|'}
+    31.1%{content:'Designe|'}
+    32.4%{content:'Designer|'}
+    33.7%{content:'Designe|'}
+    35%{content:'Design|'}
+    36.3%{content:'Desig|'}
+    37.6%{content:'Desi|'}
+    38.9%{content:'Des|'}
+    40.2%{content:'D|'}
+    41.5%{content:'|'}
+    42.8%{content:'F|'}
+    44.1%{content:'Fr|'}
+    45.4%{content:'Fre|'}
+    46.7%{content:'Free|'}
+    48%{content:'Freel|'}
+    49.3%{content:'Freela|'}
+    50.6%{content:'Freelan|'}
+    51.9%{content:'Freelanc|'}
+    53.2%{content:'Freelance|'}
+    54.5%{content:'Freelancer|'}
+    55.8%{content:'Freelance|'}
+    57.1%{content:'Freelanc|'}
+    58.4%{content:'Freelan|'}
+    59.7%{content:'Freela|'}
+    61%{content:'Freel|'}
+    62.3%{content:'Free|'}
+    63.6%{content:'Fre|'}
+    64.9%{content:'Fr|'}
+    66.2%{content:'F|'}
+    67.5%{content:'|'}
+    68.8%{content:'P|'}
+    70.1%{content:'Ph|'}
+    71.4%{content:'Pho|'}
+    72.7%{content:'Phot|'}
+    74%{content:'Photo|'}
+    75.3%{content:'Photog|'}
+    76.6%{content:'Photogr|'}
+    77.9%{content:'Photogra|'}
+    79.2%{content:'Photograp|'}
+    80.5%{content:'Photograph|'}
+    81.8%{content:'Photographe|'}
+    83.1%{content:'Photographer|'}
+    84.4%{content:'Photographe|'}
+    85.7%{content:'Photograph|'}
+    87%{content:'Photograp|'}
+    88.3%{content:'Photogra|'}
+    89.6%{content:'Photogr|'}
+    90.9%{content:'Photog|'}
+    92.2%{content:'Photo|'}
+    93.5%{content:'Phot|'}
+    94.8%{content:'Pho|'}
+    96.1%{content:'Ph|'}
+    97.4%{content:'P|'}
+    98.8%{content:'|'}
+}
+/* --------------section about----------- */
+.div1 img{
+    width: 100%;
+    height: 100%;
+}
+.div1{
+    position: relative;
+    width: 80%;
+    border: 4px solid #bb1919;
+    overflow: hidden;
+}
+.top{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    position: absolute;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: all .5s;
+}
+.div1:hover .top{
+ top: 0;
+}
+.top i{
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+}
+.top i:hover{
+    color: rgb(187, 25, 25);
+}
+
+.about-content p{
+    color: gray;
+}
+.big-parent{
+    display: flex;
+    gap: 20px;
+}
+.child p{
+    font-size: 20px;
+    margin-top: 5px;
+    color: gray;
+}
+.child span{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.icon-button {
+    background-color: rgb(187, 25, 25);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .5s;
+  }
+  .icon-button:hover{
+
+    background-color: rgb(150, 25, 25);
+  }
+  .button-text {
+    margin-right: 10px;
+  }
+  .button-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+/* ---------------our services---------- */
+
+.container-fluid{
+    background-color: #F1F1F1;
+}
+.title-container {
+    text-align: center;
+}
+
+.underline-container {
+    display: flex;
+    justify-content: center;
+}
+
+.underline {
+    width: 60px;
+    height: 1px;
+    background-color:  rgb(150, 25, 25);
+    margin: auto;
+}
+.underline1 {
+    width: 120px;
+    height: 1px;
+    background-color:  rgb(150, 25, 25);
+    margin: auto;
+}
+.underline {
+    width: 60px;
+    height: 1px;
+    background-color: rgb(150, 25, 25);
+    margin: auto;
+}
+.row h4{
+    color: #000;
+    margin: 10px 0px;
+}
+.port-child p{
+    color: gray;
+
+}
+.icon {
+   font-size: 25px;
+    /* background-color: #bb1919; */
+}
+.port-child{
+    padding: 20px;
+    transition: all .5s;
+    overflow: hidden;
+}
+.port-child :hover{
+    background-color: #fff ;
+    transform: scale(1.1); 
+    
+}
+
+/* -----------portfolio---------- */
+
+.ground{
+    background-color: rgba(0,0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: none;
+    transition: all .5s;
+}
+.bla:hover:hover .ground{
+    display: inline;
+}
+.num{
+    font-size: 23px;
+    color: #000;
+    
+}
+.prg{
+    color: rgb(150, 25, 25) !important;
+}
+.icon{
+    color: rgb(150, 25, 25) ;
+    font-size: 25px;
+}
+
+/* ---------contact------------------ */
+#contact{
+    color: #546C7D;
+}
+div h4{
+    color: #fff;
+}
+#footer{
+    background-color: #212529;
+}
+.icons-footer i{
+    color: #fff;
+    transition: all .5s;
+    cursor: pointer;
+}
+.icons-footer i:hover {
+    color: rgb(150, 25, 25) ;
+}
+.footer-caption span{
+    cursor: pointer;
+    transition: all .5s;
+    color: rgb(150, 25, 25);
+    font-size: 20px;
+}
+.footer-caption span:hover {
+    text-decoration: underline;
+    
+}
